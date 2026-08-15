@@ -30,16 +30,16 @@ This website provides verified professional information, patient education, clin
 - Diploma in Healthcare Management for Physicians from Gates Group, accredited by TRACCERT Canada
 
 ## Main pages
-- Home: https://drmohamadelharess.com/
-- About Dr. El Haress: https://drmohamadelharess.com/about
-- Conditions and cancers: https://drmohamadelharess.com/conditions
-- Surgical procedures: https://drmohamadelharess.com/procedures
-- Cancer surgery second opinion: https://drmohamadelharess.com/second-opinion
-- Research and publications: https://drmohamadelharess.com/research-publications
-- Medical articles: https://drmohamadelharess.com/articles
-- VIP medical travel: https://drmohamadelharess.com/vip-services
-- Hospital affiliations: https://drmohamadelharess.com/hospitals
-- Appointment request: https://drmohamadelharess.com/appointment
+- Home: https://drmharess.com/
+- About Dr. El Haress: https://drmharess.com/about
+- Conditions and cancers: https://drmharess.com/conditions
+- Surgical procedures: https://drmharess.com/procedures
+- Cancer surgery second opinion: https://drmharess.com/second-opinion
+- Research and publications: https://drmharess.com/research-publications
+- Medical articles: https://drmharess.com/articles
+- VIP medical travel: https://drmharess.com/vip-services
+- Hospital affiliations: https://drmharess.com/hospitals
+- Appointment request: https://drmharess.com/appointment
 
 ## Identity links
 - LinkedIn: https://lb.linkedin.com/in/mohamad-el-haress-md-911040141
@@ -52,5 +52,5 @@ This website provides verified professional information, patient education, clin
 - Location: Beirut, Lebanon
 
 ## More machine-readable context
-- Full context: https://drmohamadelharess.com/llms-full.txt
-- Sitemap: https://drmohamadelharess.com/sitemap.xml
+- Full context: https://drmharess.com/llms-full.txt
+- Sitemap: https://drmharess.com/sitemap.xml

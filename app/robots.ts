@@ -9,7 +9,7 @@ export default function robots(): MetadataRoute.Robots {
       { userAgent: "Googlebot", allow: "/", disallow: ["/admin/", "/api/admin/"] },
       { userAgent: "Bingbot", allow: "/", disallow: ["/admin/", "/api/admin/"] },
     ],
-    sitemap: "https://drmohamadelharess.com/sitemap.xml",
-    host: "https://drmohamadelharess.com",
+    sitemap: "https://drmharess.com/sitemap.xml",
+    host: "https://drmharess.com",
   };
 }

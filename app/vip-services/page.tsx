@@ -3,7 +3,7 @@ import Link from "next/link";
 import { VipTransferForm } from "@/components/vip-transfer-form";
 
 export const metadata: Metadata = { title: "VIP Medical Travel & Aviation Services", description: "Private and commercial medical travel coordination, including multidisciplinary medical escorts and international patient transfers by air or sea.", alternates: { canonical: "/vip-services" } };
-const schema = { "@context": "https://schema.org", "@type": "Service", name: "VIP Medical Travel and Aviation Coordination", provider: { "@id": "https://drmohamadelharess.com/#physician" }, areaServed: "International", serviceType: ["Medical escort coordination", "International patient transfer", "Private aviation medical support", "Commercial aviation medical support"] };
+const schema = { "@context": "https://schema.org", "@type": "Service", name: "VIP Medical Travel and Aviation Coordination", provider: { "@id": "https://drmharess.com/#physician" }, areaServed: "International", serviceType: ["Medical escort coordination", "International patient transfer", "Private aviation medical support", "Commercial aviation medical support"] };
 
 export default function VipServices() { return <main id="main" className="vip-page">
   <section className="vip-hero"><div className="container vip-hero-grid"><div><div className="eyebrow light"><span></span>VIP medical travel</div><h1>Specialist medical support,<br/><em>wherever the journey begins.</em></h1></div><div><p>Discreet coordination for patients who need a qualified medical team during private or commercial travel, including international transfers by air or sea.</p><Link className="button white" href="#vip-request">Discuss a transfer <b>→</b></Link></div></div></section>
