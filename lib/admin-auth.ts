@@ -1,4 +1,4 @@
-const ADMIN_EMAIL = "ossmansocial@gmail.com";
+const ADMIN_EMAIL = "elharessmohamad@gmail.com";
 
 export async function requireArticleAdmin() {
   return {
