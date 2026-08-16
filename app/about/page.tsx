@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "About Dr. Mohamad El Haress | General Surgeon & Surgical Oncologist",
+  title: "About Mohamad El Haress, MD, FICS | General Surgeon | Surgical Oncologist | Minimally Invasive Surgeon",
   description: "Professional biography of Dr. Mohamad El Haress, including international surgical training, clinical focus, memberships, academic work and patient-care philosophy.",
   alternates: { canonical: "/about" },
   openGraph: { title: "About Dr. Mohamad El Haress", description: "General surgeon and surgical oncologist with international clinical and surgical training.", type: "profile", images: ["/dr-mohamad-el-haress-portrait.png"] },
@@ -16,7 +16,7 @@ const profileSchema = { "@context": "https://schema.org", "@type": "ProfilePage"
 export default function AboutPage() {
   return <main id="main" className="doctor-profile biography-page">
     <section className="profile-hero"><div className="container profile-hero-grid">
-      <div className="profile-hero-copy"><div className="eyebrow light"><span></span>Meet your surgeon</div><h1>Dr. Mohamad<br/><em>El Haress.</em></h1><p className="profile-role">General Surgeon & Surgical Oncologist</p><p className="profile-lead">Complex Surgical Oncology · Minimally Invasive Surgery · Hepatobiliary & Pancreatic Surgery</p><div className="profile-actions"><Link className="button white" href="/appointment">Request an appointment <b>→</b></Link><a className="profile-text-link" href="#biography">Read his biography ↓</a></div></div>
+      <div className="profile-hero-copy"><div className="eyebrow light"><span></span>Meet your surgeon</div><h1>Mohamad El Haress,<br/><em>MD, FICS.</em></h1><p className="profile-role">General Surgeon | Surgical Oncologist | Minimally Invasive Surgeon</p><p className="profile-lead">Complex Surgical Oncology · Minimally Invasive Surgery · Hepatobiliary & Pancreatic Surgery</p><div className="profile-actions"><Link className="button white" href="/appointment">Request an appointment <b>→</b></Link><a className="profile-text-link" href="#biography">Read his biography ↓</a></div></div>
       <div className="profile-hero-photo"><Image src="/dr-mohamad-el-haress-portrait.png" alt="Dr. Mohamad El Haress, general surgeon and surgical oncologist" fill sizes="(max-width: 760px) 100vw, 46vw" priority unoptimized/><div className="profile-photo-note"><span>Patient-focused practice</span><strong>Since 2018</strong></div></div>
     </div></section>
 
