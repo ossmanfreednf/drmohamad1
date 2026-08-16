@@ -23,13 +23,14 @@ export const metadata: Metadata = {
 const physicianSchema = {
   "@context": "https://schema.org", "@type": "Physician", "@id": "https://drmharess.com/#physician", name: "Dr. Mohamad El Haress", givenName: "Mohamad", familyName: "El Haress", honorificPrefix: "Dr.", honorificSuffix: "MD, FICS",
   medicalSpecialty: ["General Surgery", "Surgical Oncology"], telephone: "+9613600777", image: "https://drmharess.com/dr-mohamad-el-haress-portrait.png",
-  url: "https://drmharess.com", sameAs: ["https://orcid.org/0009-0007-5388-9762", "https://lb.linkedin.com/in/mohamad-el-haress-md-911040141", "https://www.cureus.com/users/1247243-mohamad-el-haress"], areaServed: [{ "@type": "Country", name: "Lebanon" }, { "@type": "City", name: "Beirut" }], address: { "@type": "PostalAddress", addressLocality: "Beirut", addressCountry: "LB" },
+  alternateName: ["Mohamad El Haress", "Dr Mohamad El Haress", "Mohamad El Haress MD"], description: "Dr. Mohamad El Haress is a general surgeon, minimally invasive surgeon and complex surgical oncologist in Beirut, Lebanon.",
+  url: "https://drmharess.com", sameAs: ["https://www.instagram.com/drmohamadharess/", "https://orcid.org/0009-0007-5388-9762", "https://lb.linkedin.com/in/mohamad-el-haress-md-911040141", "https://www.cureus.com/users/1247243-mohamad-el-haress"], areaServed: [{ "@type": "Country", name: "Lebanon" }, { "@type": "City", name: "Beirut" }], address: { "@type": "PostalAddress", addressLocality: "Beirut", addressCountry: "LB" },
   jobTitle: ["General Surgeon", "Complex General Surgical Oncology Fellow", "Clinical Instructor"], worksFor: { "@type": "Hospital", name: "American University of Beirut Medical Center" },
   alumniOf: [{ "@type": "CollegeOrUniversity", name: "Beirut Arab University" }, { "@type": "Hospital", name: "AUB Medical Center" }],
   memberOf: [{ "@type": "Organization", name: "International College of Surgeons" }, { "@type": "Organization", name: "American College of Surgeons" }, { "@type": "Organization", name: "European Society of Surgical Oncology" }],
   knowsAbout: ["Minimally Invasive Surgery", "Advanced Laparoscopic Surgery", "General Surgery", "Complex General Surgical Oncology", "HIPEC", "Hepatobiliary Surgery", "Pancreatic Surgery", "Breast Surgery", "Thyroid Surgery"]
 };
-const websiteSchema = { "@context": "https://schema.org", "@type": "WebSite", "@id": "https://drmharess.com/#website", url: "https://drmharess.com", name: "Dr. Mohamad El Haress", inLanguage: "en", publisher: { "@id": "https://drmharess.com/#physician" } };
+const websiteSchema = { "@context": "https://schema.org", "@type": "WebSite", "@id": "https://drmharess.com/#website", url: "https://drmharess.com", name: "Dr. Mohamad El Haress", alternateName: ["Dr. Haress", "Mohamad El Haress"], inLanguage: "en", publisher: { "@id": "https://drmharess.com/#physician" } };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return <html lang="en" className={`${display.variable} ${sans.variable}`}><body><a className="skip-link" href="#main">Skip to content</a><Header />{children}<Footer /><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(physicianSchema) }} /><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }} /></body></html>;
