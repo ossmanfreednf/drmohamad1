@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 
 const peerReview = ["International Journal of Surgery", "Annals of Medicine & Surgery", "Cureus Journal of Medical Science", "Journal of Breakthroughs in Medicine & Science (JBMS)"];
 const clinicalFocus = ["Complex surgical oncology", "Hepatobiliary & pancreatic surgery", "Gastrointestinal surgery", "Colorectal surgery", "Breast surgery", "Endocrine surgery", "Minimally invasive & laparoscopic surgery", "Minor surgical procedures"];
-const profileSchema = { "@context": "https://schema.org", "@type": "ProfilePage", name: "About Dr. Mohamad El Haress", mainEntity: { "@type": "Physician", name: "Dr. Mohamad El Haress", jobTitle: ["General Surgeon", "Surgical Oncologist"], medicalSpecialty: ["General Surgery", "Surgical Oncology"], knowsAbout: clinicalFocus } };
+const profileSchema = { "@context": "https://schema.org", "@type": "ProfilePage", name: "About Dr. Mohamad El Haress", mainEntity: { "@type": "Physician", "@id": "https://drmharess.com/#physician", name: "Dr. Mohamad El Haress", alternateName: ["Dr Mohamad Haress", "Dr Mohammad Haress", "Dr Mohammed Haress"], jobTitle: ["General Surgeon", "Surgical Oncologist"], medicalSpecialty: ["General Surgery", "Surgical Oncology"], knowsAbout: clinicalFocus } };
 
 export default function AboutPage() {
   return <main id="main" className="doctor-profile biography-page">

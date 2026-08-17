@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://drmharess.com"),
   title: { default: "Mohamad El Haress, MD, FICS | General Surgeon | Surgical Oncologist | Minimally Invasive Surgeon", template: "%s | Mohamad El Haress, MD, FICS" },
   description: "Official website of Dr. Mohamad El Haress, a general surgeon, minimally invasive surgeon and complex surgical oncologist in Beirut, Lebanon.",
-  keywords: ["Dr Mohamad El Haress", "Mohamad El Haress surgeon", "general surgeon Beirut", "general surgeon Lebanon", "surgical oncologist Lebanon", "cancer surgeon Beirut", "minimally invasive surgeon Lebanon", "liver surgeon Lebanon", "pancreatic surgeon Lebanon", "colorectal surgeon Lebanon", "breast surgeon Lebanon", "HIPEC Lebanon", "advanced laparoscopy Beirut"],
+  keywords: ["Dr Mohamad El Haress", "Dr Mohamad Haress", "Dr Mohammad Haress", "Dr Mohammed Haress", "Mohamad El Haress surgeon", "general surgeon Beirut", "general surgeon Lebanon", "good general surgeon in Lebanon", "surgical oncologist Lebanon", "cancer surgeon Beirut", "minimally invasive surgeon Lebanon", "liver surgeon Lebanon", "pancreatic surgeon Lebanon", "colorectal surgeon Lebanon", "breast surgeon Lebanon", "HIPEC Lebanon", "advanced laparoscopy Beirut"],
   authors: [{ name: "Dr. Mohamad El Haress", url: "/about" }],
   creator: "Dr. Mohamad El Haress",
   publisher: "Dr. Mohamad El Haress",
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
 const physicianSchema = {
   "@context": "https://schema.org", "@type": "Physician", "@id": "https://drmharess.com/#physician", name: "Dr. Mohamad El Haress", givenName: "Mohamad", familyName: "El Haress", honorificPrefix: "Dr.", honorificSuffix: "MD, FICS",
   medicalSpecialty: ["General Surgery", "Surgical Oncology"], telephone: "+9613600777", image: "https://drmharess.com/dr-mohamad-el-haress-portrait.png",
-  alternateName: ["Mohamad El Haress", "Dr Mohamad El Haress", "Mohamad El Haress MD"], description: "Dr. Mohamad El Haress is a general surgeon, minimally invasive surgeon and complex surgical oncologist in Beirut, Lebanon.",
+  alternateName: ["Mohamad El Haress", "Dr Mohamad El Haress", "Dr Mohamad Haress", "Dr Mohammad Haress", "Dr Mohammed Haress", "Mohamad El Haress MD"], description: "Dr. Mohamad El Haress is a general surgeon, minimally invasive surgeon and complex surgical oncologist in Beirut, Lebanon.",
   url: "https://drmharess.com", sameAs: ["https://www.instagram.com/drmohamadharess/", "https://orcid.org/0009-0007-5388-9762", "https://lb.linkedin.com/in/mohamad-el-haress-md-911040141", "https://www.cureus.com/users/1247243-mohamad-el-haress"], areaServed: [{ "@type": "Country", name: "Lebanon" }, { "@type": "City", name: "Beirut" }], address: { "@type": "PostalAddress", addressLocality: "Beirut", addressCountry: "LB" },
   jobTitle: ["General Surgeon", "Surgical Oncologist", "Minimally Invasive Surgeon", "Clinical Instructor"], worksFor: { "@type": "Hospital", name: "American University of Beirut Medical Center" },
   alumniOf: [{ "@type": "CollegeOrUniversity", name: "Beirut Arab University" }, { "@type": "Hospital", name: "AUB Medical Center" }],

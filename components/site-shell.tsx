@@ -10,7 +10,7 @@ const links = [
 
 export function Header() {
   const [open, setOpen] = useState(false);
-  return <><div className="topbar"><div className="container topbar-inner"><span>Specialist surgical care in Lebanon</span><a href="tel:+9613600777">Call +961 03 600 777</a></div></div>
+  return <><div className="topbar"><div className="container topbar-inner"><span><Link href="/general-surgeon-lebanon">Specialist surgical care in Lebanon</Link></span><a href="tel:+9613600777">Call +961 03 600 777</a></div></div>
   <header className="header"><div className="container nav-wrap"><Link className="brand" href="/" aria-label="Mohamad El Haress home"><Image src="/logo-icon.png" width={62} height={62} alt="Mohamad El Haress medical logo" priority unoptimized /><span><b>Mohamad El Haress, MD, FICS</b><small>General Surgeon | Surgical Oncologist | Minimally Invasive Surgeon</small></span></Link>
   <button className="menu-button" aria-expanded={open} aria-label="Toggle menu" onClick={() => setOpen(!open)}><i></i><i></i></button>
   <nav className={open ? "nav open" : "nav"} aria-label="Main navigation">{links.map(([label, href]) => <Link key={href} href={href} onClick={() => setOpen(false)}>{label}</Link>)}<Link className="nav-cta" href="/appointment" onClick={() => setOpen(false)}>Book appointment</Link></nav></div></header><div className="mobile-contact-bar"><a href="tel:+9613600777">Call</a><a href="https://wa.me/9613600777" target="_blank" rel="noreferrer">WhatsApp</a><Link href="/appointment">Appointment</Link></div></>;
